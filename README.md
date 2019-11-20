@@ -15,7 +15,8 @@ Load config is called only once during the application start up. This function p
 
 ### findRoute(input) -> server:
 
-findRoute takes a string as an input and returns a server name that is also a string. Input is a string like "<customer_id>.<country>.<state>.<city>". findRoute function returns the server that matches the input. The routes in config file could contain ‘\*’ in them to accept any value. ‘\*’ appears only in the trailing parts of the rule. Rules are not given in any specific order in the configuration file. When more than one rule matches, most specific match wins.
+findRoute takes a string as an input and returns a server name that is also a string. Input is a string like "&lt;customer_id&gt;.&lt;country&gt;.&lt;state&gt;.&lt;city&gt;". findRoute function returns the server that matches the input. The routes in config file could contain '\*' in them to accept any value. '\*' appears only in the trailing parts of the rule. Rules are not given in any specific order in the configuration file. When more than one rule matches, most specific match wins.
+
 
 #### Sample routing rules from configuration file:
 
