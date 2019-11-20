@@ -1,6 +1,10 @@
 # Domain Pattern Matching
 JavaScript pattern matching tool
 
+Demo:
+
+https://playcode.io/472550
+
 Implemented a **N-ary Tree** data structure with methods of: addNode, printNode, searchNode.
 
 
